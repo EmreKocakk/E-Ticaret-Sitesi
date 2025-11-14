@@ -1,0 +1,27 @@
+.product-list-wrap {
+    width: 100%;
+}
+
+.product-list {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 41px;
+    margin-top: 50px;
+}
+
+@media (max-width: 1024px) {
+    .product-list-wrap {
+        width: 100%;
+    }
+
+    .product-list {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
